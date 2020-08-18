@@ -8,14 +8,14 @@ Install the package **in your theme folder**:
 
 ```bash
 cd wp-content/themes/your-sage-theme-folder
-composer require roots/sage-woocommerce
+composer require tablufc88/sage-woocommerce
 ```
 
 Add package path to Sage view namespaces in `config/view.php`:
 
 ```php
     'namespaces' => [
-        'SageWoocommerce' => get_theme_file_path('/vendor/roots/sage-woocommerce/src/resources/views'),
+        'SageWoocommerce' => get_theme_file_path('/vendor/tablufc88/sage-woocommerce/src/resources/views'),
     ],
 ```
 
