@@ -10,6 +10,7 @@
         },
         {
             "name": "Tom Barber"
+        }
     ],
     "autoload": {
         "files": [
